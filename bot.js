@@ -10,5 +10,43 @@ client.on('message', message => {
         message.reply('pong');
       }
 });
+
+console.log("Welcome Again !");
+ 
+ client.on("guildMemberRemove", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+**
+
+:earth_asia: welcome TO S7Q CLAN :heart:  ,   https://discord.gg/4prW5HA
+
+
+7LMN NWSL 1000 ADW**
+
+
+ ${member}  
+**`)
+}).catch(console.error)
+
+})
+ 
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+**
+
+:earth_asia: welcome TO S7Q CLAN DAOY 5SA:heart:  ,   https://discord.gg/4prW5HA
+
+7LMN NWSL 1000 ADW**
+
+
+ ${member}  
+**`) 
+}).catch(console.error)
+})
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
