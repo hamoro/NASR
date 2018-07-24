@@ -5,24 +5,35 @@ console.log("Welcome Again !");
  
  client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
-  return channel.send(**
-سلام عليكم ي بعد عيني ممكن نخطفك عندنا الليلة :rose: :P 
-نتشرف فيك ي عسل نورنا <3 :D 
-[ https://discord.gg/4prW5HA ]
-الدعووة خاصة لك ي قلبي ... [ ${member}  ]
-**)
+  return channel.send(` 
+**
+**
+
+:earth_asia: welcome TO S7Q CLAN :heart:  ,   https://discord.gg/4prW5HA
+
+
+7LMN NWSL 1000 ADW**
+
+
+ ${member}  
+**`)
 }).catch(console.error)
 
 })
  
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
-  return channel.send(**
-سلام عليكم ي بعد عيني ممكن نخطفك عندنا الليلة :rose: :P 
-نتشرف فيك ي عسل نورنا <3 :D 
-[ https://discord.gg/4prW5HA ]
-الدعووة خاصة لك ي قلبي ... [ ${member}  ]
-**) 
+  return channel.send(` 
+**
+**
+
+:earth_asia: welcome TO S7Q CLAN DAOY 5SA:heart:  ,   https://discord.gg/4prW5HA
+
+7LMN NWSL 1000 ADW**
+
+
+ ${member}  
+**`) 
 }).catch(console.error)
 })
 
