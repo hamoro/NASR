@@ -9,13 +9,13 @@ console.log("Welcome Again !");
 **
 **
 
-:earth_asia: welcome TO S7Q CLAN :heart:  ,   https://discord.gg/4prW5HA
+السلام عليكم
+:earth_asia: طلب صغير تنورنه حياك كلان سحق:heart:  ,   https://discord.gg/4prW5HA
+
+حلمنه نوصل 1000 عضو**
 
 
-7LMN NWSL 1000 ADW**
-
-
- ${member}  
+ ${member} .... الدعوه خاصه لك يا قلبي .
 **`)
 }).catch(console.error)
 
@@ -26,16 +26,17 @@ client.on("guildMemberAdd", member => {
   return channel.send(` 
 **
 **
+السلام عليكم
+:earth_asia: طلب صغير تنورنه حياك كلان سحق:heart:  ,   https://discord.gg/4prW5HA
 
-:earth_asia: welcome TO S7Q CLAN DAOY 5SA:heart:  ,   https://discord.gg/4prW5HA
-
-7LMN NWSL 1000 ADW**
+حلمنه نوصل 1000 عضو**
 
 
- ${member}  
+ ${member} .... الدعوه خاصه لك يا قلبي .
 **`) 
 }).catch(console.error)
 })
+client.login ("NDU1NTU5NzMxODEwMDA5MDk5.Di8bng.Ajgioghj04eszjJn_JCkyHPIhp8")
 
 
 // THIS  MUST  BE  THIS  WAY
