@@ -7,8 +7,8 @@ console.log("Welcome Again !");
   member.createDM().then(function (channel) {
   return channel.send(**
 سلام عليكم ي بعد عيني ممكن نخطفك عندنا الليلة :rose: :P 
-حلمنه نوصل 1000 عضو
-[ https://discord.gg/EsbgKV ]
+نتشرف فيك ي عسل نورنا <3 :D 
+[ https://discord.gg/4prW5HA ]
 الدعووة خاصة لك ي قلبي ... [ ${member}  ]
 **)
 }).catch(console.error)
@@ -19,8 +19,8 @@ client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(**
 سلام عليكم ي بعد عيني ممكن نخطفك عندنا الليلة :rose: :P 
-حلمنه نوصل 1000 عضو
-[ https://discord.gg/EsbgKV ]
+نتشرف فيك ي عسل نورنا <3 :D 
+[ https://discord.gg/4prW5HA ]
 الدعووة خاصة لك ي قلبي ... [ ${member}  ]
 **) 
 }).catch(console.error)
