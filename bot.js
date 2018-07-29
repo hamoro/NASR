@@ -36,7 +36,7 @@ client.on("guildMemberAdd", member => {
 **`) 
 }).catch(console.error)
 })
-client.login ("NDU1NTU5NzMxODEwMDA5MDk5.Di8bng.Ajgioghj04eszjJn_JCkyHPIhp8")
+
 
 
 // THIS  MUST  BE  THIS  WAY
