@@ -1,41 +1,16 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-console.log("Welcome Again !");
- 
- client.on("guildMemberRemove", member => {
-  member.createDM().then(function (channel) {
-  return channel.send(` 
-**
-**
+client.on('ready', () => {
+    console.log('I am ready!');
+});
 
-السلام عليكم
-:earth_asia: طلب صغير تنورنه حياك كلان سحق:heart:  ,   https://discord.gg/SvP7KfB
+client.on('message', message => {
+    if (message.content === 'ping') {
+        message.reply('pong');
+      }
+});
 
-حلمنه نوصل 1000 عضو**
-
-
- ${member} .... الدعوه خاصه لك يا قلبي .
-**`)
-}).catch(console.error)
-
-})
- 
-client.on("guildMemberAdd", member => {
-  member.createDM().then(function (channel) {
-  return channel.send(` 
-**
-**
-السلام عليكم
-:earth_asia: طلب صغير تنورنه حياك كلان سحق:heart:  ,   https://discord.gg/SvP7KfB
-
-حلمنه نوصل 1000 عضو**
-
-
- ${member} .... الدعوه خاصه لك يا قلبي .
-**`) 
-}).catch(console.error)
-})
 
 
 
