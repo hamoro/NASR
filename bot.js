@@ -8,7 +8,7 @@ const fetchVideoInfo = require('youtube-info');
 
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
 const prefix = '+';
-const discord_token = "توكين البوت";
+client.login(process.env.BOT_TOKEN);
 client.login(discord_token);
 client.on('ready', function() {
     console.log(`i am ready ${client.user.username}`);
