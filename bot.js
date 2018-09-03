@@ -15,7 +15,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : hamo ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`24 ساعة`,"http://twitch.tv/S-F")
+client.user.setGame(`I LOVE YOU,S7Q,`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
