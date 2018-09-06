@@ -6,7 +6,7 @@ const jimp = require('jimp');
 const Canvas = require('canvas');
  
 client.on('guildMemberAdd', member => {
-     const welcomer =  member.guild.channels.find('name', 'اسم روم الترحيب');
+     const welcomer =  member.guild.channels.find('name', 'chat');
 const w = ['./w1.png'];
  
          let Image = Canvas.Image,
