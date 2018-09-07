@@ -108,4 +108,11 @@ client.on("guildMemberAdd", (member) => {
        });
     });
 });
+
+client.on('ready', () => {
+     client.user.setActivity("H bot System",{type: 'WATCHING'});
+
+});
+
+
 client.login(process.env.BOT_TOKEN);
